@@ -1,5 +1,8 @@
 /* import { helloOne } from './src/js/script_1.js'; DINAMICALLY IMPORTED */
 import { helloThree } from './src/js/script_3.js'; /* NORMALLY IMPORTED */
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+import ExamplePage from './src/react-components/ExampleContainer';
 
 const scriptOneHook = document.querySelector("#script-anchor");
 const scriptTwoHook = document.querySelector("#script-anchor-two");
@@ -33,3 +36,7 @@ if(scriptTwoHook){
 
 helloThree();
 console.log('Last HELLO - Webpack Starter[from index.js]');
+
+/* START REACT */
+ReactDOM.render(ExamplePage(), document.getElementById('example-react-container'));
+/* END REACT */
