@@ -1,24 +1,30 @@
-# WEBPACK SIMPLE PROJECT 
+# 📦 WEBPACK SIMPLE PROJECT 💥
 
 ## CREATED ON 3.11.2019
 
 ### DESCRIPTION
 
-Simple webpack project ready to use to perform basic tasks:
+Webpack project ready to use to perform a simple task:
 
-build a bundle resolving modules imported dynamically or synchronously.
+* Resolve static resources producing a bundle 
 
-webpack works as follow:
+  <img src="C:\Users\SI2001\Desktop\screens\webpack.jpg" alt="webpack" style="zoom: 150%;" />
+
+  ```
+  * Fig. 1: Webpack official site https://webpack.js.org/ *
+  ```
+
+#### Webpack works as follow:
 
 * Read an entry file Javascript `entry: "./index.js",`
-* Resolve all dependencies producing a _bundle_ `output: {filename: "bundle.js}"`; bundle is added in html page
+* Resolve all dependencies _(in this case only Js scripts)_ producing a _bundle_ `output: {filename: "bundle.js}"`; bundle is added in html page
   *  _Dynamic Import_ (Ref: https://webpack.js.org/guides/code-splitting/)
-    * 'script_1.js' and 'script_2.js' are dynamically imported
-  * 'script_3.js' is imported synchronously
+     * 'script_1.js' and 'script_2.js' are dynamically imported
+  *  'script_3.js' is imported synchronously
 * Produce _source-map_
 * Serve project with _devServer_ on port 3001
 
-##### Branch _master_
+##### 🗃Branch _master🗃_
 
 * Added _HtmlWebpackPlugin_ plugin to watch html index file 
 
@@ -28,7 +34,7 @@ webpack works as follow:
 
   
 
-##### Branch feature/webpack-react
+##### :sparkles:Branch feature/webpack-react :sparkles:
 
 * Added and configured Babel loader to transpile React code
 
@@ -42,7 +48,7 @@ webpack works as follow:
 
 
 
-### USAGE
+### :children_crossing:USAGE:children_crossing:
 
 * npm install 
 * npm run build
