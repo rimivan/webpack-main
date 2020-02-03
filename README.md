@@ -56,4 +56,4 @@ Webpack project ready to use to perform a simple task:
 
 
 
-\## AUTHOR: IR
+## AUTHOR: IR
